@@ -1,4 +1,17 @@
 <pocketitems>
-    <card type="tarot_reverse" name="Holy Card?" description="HP up?" hud="Holy Card?" pickup="14" mimiccharge="12"/>
     <card type="tarot_reverse" name="Joker?" description="404" hud="Joker?" pickup="14" mimiccharge="2"/>
+    <card type="tarot_reverse" name="Chaos Card?" description="?" hud="Chaos Card?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="Credit Card?" description="?" hud="?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="Rules Card?" description="?" hud="Rules Card?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="A Card Against Humanity?" description="?" hud="A Card Against Humanity?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="Suicide King?" description="?" hud="Suicide King?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="Get out of Jail Free Card?" description="?" hud="Get out of Jail Free Card?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="! Card?" description="?" hud="! Card?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="?" description="?" hud="?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="Holy Card?" description="HP Up?" hud="Holy Card?" pickup="14" mimiccharge="12"/>
+    <card type="tarot_reverse" name="Huge Growth?" description="?" hud="Huge Growth?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="Ancient Recall?" description="?" hud="Ancient Recall?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="Era Walk?" description="?" hud="Era Walk?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="Queen of Hearts?" description="?" hud="Queen of Hearts?" pickup="14" mimiccharge="1"/>
+    <card type="tarot_reverse" name="Wild Card?" description="?" hud="Wild Card?" pickup="14" mimiccharge="1"/>
 </pocketitems>

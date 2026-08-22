@@ -1,7 +1,17 @@
 local mod = RegisterMod("Discarded", 1)
 
+local JOKER_CARD = Isaac.GetCardIdByName("Joker?")
 local HOLY_CARD = Isaac.GetCardIdByName("Holy Card?")
 
+function mod:OnUseJokerCard(card, player, useFlags)
+    
+        player:AnimateTeleport(true)
+        Game():StartRoomTransition(GridRooms.ROOM_ERROR_IDX,Direction.NO_DIRECTION,RoomTransitionAnim.TELEPORT,player)
+
+end
+
+
+mod:AddCallback(ModCallbacks.MC_USE_CARD, mod.OnUseJokerCard, JOKER_CARD)
 
 function mod:OnUseHolyCard(card, player, useFlags)
 
@@ -17,15 +27,3 @@ function mod:OnUseHolyCard(card, player, useFlags)
 end
 
 mod:AddCallback(ModCallbacks.MC_USE_CARD, mod.OnUseHolyCard, HOLY_CARD)
-
-local JOKER_CARD = Isaac.GetCardIdByName("Joker?")
-
-function mod:OnUseJokerCard(card, player, useFlags)
-    
-        player:AnimateTeleport(true)
-        Game():StartRoomTransition(GridRooms.ROOM_ERROR_IDX,Direction.NO_DIRECTION,RoomTransitionAnim.TELEPORT,player)
-
-end
-
-
-mod:AddCallback(ModCallbacks.MC_USE_CARD, mod.OnUseJokerCard, JOKER_CARD)
